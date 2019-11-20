@@ -2,6 +2,7 @@ require_relative 'boot'
 
 require 'rails/all'
 require 'action_view/component/base'
+require_relative '../lib/pre_compilation/railtie'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
